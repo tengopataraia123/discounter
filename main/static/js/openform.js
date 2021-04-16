@@ -9,3 +9,19 @@ document.querySelectorAll('.myBtn').forEach(item => {
     })
   })
 })
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+  if (event.target == modalebay) {
+    modalebay.style.display = "none";
+  }
+  if (event.target == modalvendoo) {
+    modalvendoo.style.display = "none";
+  }
+  if (event.target == modalalibaba) {
+    modalalibaba.style.display = "none";
+  }
+}
