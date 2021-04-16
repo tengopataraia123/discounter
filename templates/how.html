@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,9 +12,9 @@
         <link href="assets/images/iconlogo.svg" rel="icon">
 
      
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/fonts.css' %}">
         <script src="https://kit.fontawesome.com/610e68a838.js" crossorigin="anonymous"></script>
 
     </head>
@@ -21,7 +22,7 @@
     <body>
         <header>
             <div class="get-disc-logo">
-                <a href="index.html"><img src="assets/images/logo.svg"></a>
+                <a href="index.html"><img src="{% static 'images/logo.svg' %}"></a>
             </div>
             <button class="donate">
                 Donate
@@ -39,17 +40,17 @@
                 <h1>Why?</h1>
                 <div class="reasons3">
                     <div>
-                        <img src="assets/images/savemoney.png">
+                        <img src="{% static 'images/savemoney.png' %}">
                         <h2>Save Money</h2>
                         <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai</p>
                     </div>
                     <div>
-                        <img src="assets/images/savetime.png">
+                        <img src="{% static 'images/savetime.png' %}">
                         <h2>Time Saving</h2>
                         <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai</p>
                     </div>
                     <div>
-                        <img src="assets/images/free-icon.png">
+                        <img src="{% static 'images/free-icon.png' %}">
                         <h2>It's Free</h2>
                         <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai </p>
                     </div>
@@ -59,22 +60,22 @@
                 <h1>How?</h1>
                 <h2>Step 1:</h2>
                 <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi  itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
-                <img src="assets/images/screen1.png">
+                <img src="{% static 'images/screen1.png' %}">
                 <h2>Step 2:</h2>
                 <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
-                <img src="assets/images/screen3.png">
+                <img src="{% static 'images/screen3.png' %}">
                 <h2>Step 3:</h2>
                 <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
-                <img src="assets/images/screen2.png">
+                <img src="{% static 'images/screen2.png' %}">
                 <h2>Step 4:</h2>
                 <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
-                <img src="assets/images/screen4.png">
+                <img src="{% static 'images/screen4.png' %}">
                 <h2>Step 5:</h2>
                 <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
-                <img src="assets/images/screen5.png">
+                <img src="{% static 'images/screen5.png' %}">
 
                 <div class="how-logo">
-                    <a href="index.html" class="how-logo"><img src="assets/images/logo.svg"></a>
+                    <a href="{% url 'home' %}" class="how-logo"><img src="{% static 'images/logo.svg' %}"></a>
                 </div>
             </div>
         </main>

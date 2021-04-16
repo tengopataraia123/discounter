@@ -20,3 +20,7 @@ def home_view(request):
             site = SiteModel.objects.filter(name=name).first()
             EntryModel.objects.create(site=site,url=url,price=price,email=email)
     return render(request,"index.html",context)
+
+
+def how_view(request):
+    return render(request,"how.html",{})
