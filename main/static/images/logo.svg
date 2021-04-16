@@ -1,10 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="811" height="243" viewBox="0 0 811 243">
-  <g id="Group_3" data-name="Group 3" transform="translate(-105 -132)">
-    <g id="Group_2" data-name="Group 2">
-      <circle id="Ellipse_1" data-name="Ellipse 1" cx="100" cy="100" r="100" transform="translate(105 149)" fill="#ff8000"/>
-      <text id="_" data-name="%" transform="translate(140 304)" fill="#fff" font-size="159" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">%</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1094" height="376" viewBox="0 0 1094 376">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1094" height="376" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-351 -212)">
+      <text id="Smart_Discount" data-name="Smart 
+Discount" transform="translate(1062 364)" fill="#ff8f1f" font-size="170" font-family="BritannicBold, Britannic"><tspan x="-278.242" y="0">SMART </tspan><tspan x="-381.255" y="188">DISCOUNT</tspan></text>
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="150" cy="154.5" rx="150" ry="154.5" transform="translate(351 244)" fill="#ff8f1f"/>
+      <text id="_" data-name="%" transform="translate(501 496)" fill="#fff" font-size="299" font-family="GoudyOldStyleT-Regular, Goudy Old Style"><tspan x="-125.63" y="0">%</tspan></text>
     </g>
-    <text id="GET_DISCOUNT" data-name="GET 
-DISCOUNT" transform="translate(619 249)" fill="#ff8000" font-size="132" font-family="Algerian"><tspan x="-140.701" y="0">GET </tspan><tspan x="-294.164" y="96">DISCOUNT</tspan></text>
   </g>
 </svg>
