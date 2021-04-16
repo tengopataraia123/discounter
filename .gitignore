@@ -3,4 +3,4 @@ venv/
 .vscode/
 *.pyc
 uploads/
-*settings.py
+settings.py
