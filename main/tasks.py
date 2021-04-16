@@ -5,24 +5,30 @@ from bs4 import BeautifulSoup
 import requests
 from datetime import datetime
 
-def send_mail(email,url,price):
+def send_mail(email, url, price):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
     server.ehlo()
 
-    server.login('karlo.tevzadze.1@iliauni.edu.ge', 'hmhltdcchueknufd')
+    server.login('smartdiscount.ltd@gmail.com', 'xixrwxqlsaovqmxm')
 
     subject = 'Price fell down'
     body = f'''
     Url: {url}
     Price : {price}
+
+    If our website helped you save money, if you are willing to fund us with even $1, because we could offer better opportunities. SmartDiscount wishes you a good purchase.
+
+    Best regards,
+
+    SmartDiscount Administration.
     '''
 
     msg = f'Subject: {subject}\n\n{body}'
 
     server.sendmail(
-        'karlo.tevzadze.1@iliauni.edu.ge',
+        'smartdiscount.ltd@gmail.com',
         email,
         msg
     )
