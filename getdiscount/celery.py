@@ -12,7 +12,7 @@ app.conf.beat_schedule = {
     # Executes every Monday morning at 7:30 a.m.
     'add-every-30-second': {
         'task': 'main.tasks.check',
-        'schedule': 30.0,
+        'schedule': 180.0,
     },
 }
 
