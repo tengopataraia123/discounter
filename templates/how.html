@@ -3,13 +3,19 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Smart Discount</title>
+        <title>Smart Discount - How?</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="eCommerce HTML Template Free Download" name="keywords">
-        <meta content="eCommerce HTML Template Free Download" name="description">
+        <meta content="Smart Discount" name="keywords">
+        <meta content="Smart Discount gives people the ability to control discounts" name="description">
+        <meta property="og:url" content="www.smartdiscount.ge" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Smart Discount" />
+        <meta property="og:description" content="Smart Discount gives people the ability to control discounts"/>
+        <meta property="og:image" content="{% static 'images/logo.svg' %}" />
 
         <!-- Favicon -->
-        <link href="assets/images/iconlogo.svg" rel="icon">
+        <link href="{% static 'images/iconlogo.svg' %}" rel="icon">
+
 
      
         <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
@@ -25,57 +31,64 @@
                 <a href="{% url 'home' %}"><img src="{% static 'images/logo.svg' %}"></a>
             </div>
             <button class="donate">
-                Donate
+                დონაცია
             </button>
             <a href="#" class="howtowork">
-                How Does It Work?
+                როგორ ვისარგებლო?
             </a>
         </header>
         <main class="howtocontainer">
             <div class="what-block">
-                <h1>What?</h1>
-                <p>itacli mdsaidmasi dmasidmaisdmaisdmai sdmaisdm aisdm iasmi dmasidmsaidm aisdm iasdmasimdadm asimdaisdmi asmdi amsidmasimd aismdiasm diasmi dmdsiadmiasmd iasmd iasmdi amsi as</p>
+                <h1>რა არის Smart Discount?</h1>
+                <p>Smart Discount არის ჭკვიანი პლატფორმა, რომელიც შეეცდება თქვენს დახმარებას შესყიდვების პროცესში. 
+				თუ ელოდებით სასურველ ნივთზე ფასდაკლებას და თან არ გინდათ, რომ გამოტოვოთ სიახლე. შეგიძლიათ 
+				მიანდოთ დაკვირვების პროცესი პლატფორმას და ის გამოგიგზავნით შეტყობინებას მომენტალურად ფასდაკლების 
+				დადებიდან რამდენიმე წამში.</p>
             </div>
             <div class="why-block">
-                <h1>Why?</h1>
+                <h1>რატომ?</h1>
                 <div class="reasons3">
                     <div>
                         <img src="{% static 'images/savemoney.png' %}">
-                        <h2>Save Money</h2>
-                        <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai</p>
+                        <h2>თანხას დაზოგავ</h2>
+                        <p>მიუთითებ შენ სასურველი ნივთისთვის რა თანხას გადაიხდიდი და თუ ფასი დაიწევს ჩვენ 
+						შეგატყობინებთ</p>
                     </div>
                     <div>
                         <img src="{% static 'images/savetime.png' %}">
-                        <h2>Time Saving</h2>
-                        <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai</p>
+                        <h2>დროს დაზოგავ</h2>
+                        <p>უბრალოდ ლინკს მიგვითითებ, რომელზეც პროდუქტია განთავსებული და დაელოდები ჩვენს 
+						შეტყობინებას.</p>
                     </div>
                     <div>
                         <img src="{% static 'images/free-icon.png' %}">
-                        <h2>It's Free</h2>
-                        <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi dmasidmai </p>
+                        <h2>შენთვის უფასოა</h2>
+                        <p>დიახ, არ მოგესმა. შეგიძლია უფასოდ ისარგებლო რამდენჯერაც გაგიხარდება და დაზოგო რამდენიც 
+						გაგიხარდება</p>
                     </div>
                 </div>
             </div>
             <div class="how-block">
-                <h1>How?</h1>
-                <h2>Step 1:</h2>
-                <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi  itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
+                <h1>როგორ ვისარგებლო?</h1>
+                <h2>ნაბიჯი 1:</h2>
+                <p>აირჩიე უკვე ნივთი? დააკოპირე ეს ლინკი. უფრო დეტალურად: მონიშნავ სრულ ლინკს, მაუსის 
+				მარჯვენა ღილაკს დააკლიკებ ლინკზე, შემდეგ "Copy".</p>
                 <img src="{% static 'images/screen1.png' %}">
-                <h2>Step 2:</h2>
-                <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
+                <h2>ნაბიჯი 2:</h2>
+                <p>სტუმრობ ჩვენს საიტს და ხსნი შესაბამისი გვერდის ფანჯარას. პროდუქტის მისამართში სვამ უკვე დაკოპირებულ ლინკს.</p>
                 <img src="{% static 'images/screen3.png' %}">
-                <h2>Step 3:</h2>
-                <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
+                <h2>ნაბიჯი 3:</h2>
+                <p>რა თქმა უნდა, ვიცით უკვე რა ღირს ნივთი, მაგრამ მაინც გადავამოწმოთ და განვსაზღვროთ რამდენით გვინდა დააკლდეს ფასი</p>
                 <img src="{% static 'images/screen2.png' %}">
-                <h2>Step 4:</h2>
-                <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
+                <h2>ნაბიჯი 4:</h2>
+                <p>თუ უკვე განსაზღვრეთ კვლავ ეწვევით საიტს და "სასურველ ფასის" გრაფაში მიუთითებთ შესაბამის ფასს.</p>
                 <img src="{% static 'images/screen4.png' %}">
-                <h2>Step 5:</h2>
-                <p>itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi itacli mdsaidmasi dmasidmai itacli mdsaidmasi </p>
+                <h2>ნაბიჯი 5:</h2>
+                <p>ჯერ-ჯერობით, მხოლოდ ელ-ფოსტაზე ვიწერებით შეტყობინებებს, მაგრამ თუ სურვილი გექნებათ ტელეფონის ნომერსაც დავამატებთ. ასე რომ აქ ელ-ფოსტის მითითებაა აუცილებელი, რომელსაც იყენებთ. ამ ელ-ფოსტაზე მოგივათ შეტყობინება.</p>
                 <img src="{% static 'images/screen5.png' %}">
 
                 <div class="how-logo">
-                    <a href="{% url 'home' %}" class="how-logo"><img src="{% static 'images/logo.svg' %}"></a>
+                    <a href="{% url 'home' %}" class="how-logo"><img src="{% static 'images/frontlogo.jpg' %}"></a>
                 </div>
             </div>
         </main>
@@ -91,25 +104,16 @@
 
             <div class="footer-components">
                 <div class="list">
-                    <a href="#">home</a>
-                    <a href="#">discovery</a>
-                    <a href="#">photos</a>
-                    <a href="#">contact</a>
+                    <a href="#">მთავარი</a>
+                    <a href="#">კონტაქტი</a>
 
                 </div>
                 <div class="list">
-                    <a href="#">about</a>
-                    <a href="#">help</a>
-                    <a href="#">terms</a>
-                    <a href="#">guidlines</a>
-                </div>
-                <div class="list">
-                    <a href="#">Testimonials</a>
-                    <a href="#">advertise</a>
-                    <a href="#">intergations</a>
-                    <a href="#">careers</a>
-                </div>
-                
+                    <a href="#">შესახებ</a>
+                    <a href="#">დახმარება</a>
+                    <a href="#">პირობები</a>
+                    <a href="#">გზამკვლევი</a>
+                </div>                
             </div>
         </div>
 
@@ -119,11 +123,11 @@
                     <input type="text" name="send" placeholder="Email" autocomplete="off">
                 </form>
                 <button>
-                    <img src="assets/images/send.png">
+                    <img src="{% static 'images/send.png' %}">
                 </button>
 
 
-                <p class="footer-text">Stay in touch with us for the freshest products!</p>
+                <p class="footer-text">მოგვწერეთ იმეილი, რადგან არ გამოგრჩეს ჩვენზე სიახლეები</p>
                 
             </div>
 

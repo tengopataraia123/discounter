@@ -1,7 +1,11 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-elite/css/bpg-nino-elite.min.css");
+
 body{
     margin: auto;
     height: 100%;
     background: #f1f1f1;
+	font-family: "BPG Nino Elite", sans-serif;
 }
 header{
     display: flex;
@@ -9,6 +13,9 @@ header{
     width: 100%;
     padding: 10px 30px;
     vertical-align: middle;
+}
+h1{
+  font-family: "ALK Sanet", sans-serif;
 }
 .get-disc-logo img{
     height: 50px;
@@ -23,6 +30,7 @@ header{
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+	font-family: "ALK Sanet", sans-serif;
 }
 
 .howtowork{
@@ -33,6 +41,7 @@ header{
     background-color: #ff8f1f;
     cursor: pointer;
     border-radius: 50px;
+	font-family: "ALK Sanet", sans-serif;
 }
 .howtowork a{
   width: 100%;
@@ -175,6 +184,9 @@ header{
   justify-content: space-between;
   text-align: center;
 }
+.reasons3 h2{
+  font-family: "ALK Sanet", sans-serif;
+}
 .reasons3 div{
   width: 33%;
   padding: 10px;
@@ -211,7 +223,7 @@ header{
   text-align: center;
 }
 .how-logo img{
-  width: 30%;
+  width: 100px;
 }
 .search-block{
   display: flex; 
@@ -354,5 +366,62 @@ header{
     display: flex;
     justify-content: space-between;
 
+}
+
+@media (max-width: 750px){
+  .get-disc-logo img{
+    height: 40px;
+  }
+  .donate{
+    padding: 8px;
+    font-size: 12px;
+  }
+  .howtowork {
+    font-size: 12px;
+    padding: 14px;
+  }
+  header{
+    padding: 10px;
+  }
+  .container2{
+    padding: 0px 20px;
+  }
+  .footer-left-components{
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .footer-components {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    justify-content: space-between;
+  }
+  .footer-right-components {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .letter-form {
+    margin-bottom: 20px;
+  }
+  .howtocontainer{
+	  padding: 0px 15px;
+  }
+  .why-block{
+	  padding: 10px;
+  }
+  .reasons3 div{
+	  width: 100%;
+  }
+  .how-block{
+	  padding: 15px;
+  }
+  .what-block{
+	  padding: 15px;
+  }
+  .search-block{
+	  margin: 10px auto;
+  }
 }
 /*finished footer*/
