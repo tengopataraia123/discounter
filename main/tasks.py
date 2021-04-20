@@ -47,6 +47,7 @@ def check():
         if current_price < wanted_price:
             send_mail(entry.email, entry.url, current_price)
             print("sending mail to: " +entry.email)
+            OldEntryModel.objects.create(site=entry.site,url=entry.url,price=entry.price,email=entry.email)
             entry.delete()
 
     print("checked | "+datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
