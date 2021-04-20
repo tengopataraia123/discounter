@@ -32,8 +32,6 @@ def send_mail(email, url, price):
         email,
         msg
     )
-    print("Email Sent")
-
     server.quit()
 
 @shared_task
@@ -45,11 +43,10 @@ def check():
         
         exec(function_text,globals())
 
-        current_price = f(entry.url)
-
+        current_price = float(f(entry.url))
         if current_price < wanted_price:
             send_mail(entry.email, entry.url, current_price)
-
+            print("sending mail to: " +entry.email)
             entry.delete()
 
     print("checked | "+datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
