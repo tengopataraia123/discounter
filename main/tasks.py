@@ -3,6 +3,7 @@ from .models import EntryModel,OldEntryModel
 import smtplib
 from bs4 import BeautifulSoup
 import requests
+from forex_python.converter import CurrencyRates
 from datetime import datetime
 
 def send_mail(email, url, price):
